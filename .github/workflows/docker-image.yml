@@ -1,6 +1,7 @@
 name: CI - Maven and Image build
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
 
